@@ -14,3 +14,28 @@ app.use(bodyParser.json());
 server.listen(8080, () => {
     console.log('Start server 8080 port');
 });
+
+// module.exports = {
+//     apps: [
+//         {
+//             name: "controller_app",
+//             script: "./pony_c_server_v2/index.js",
+//             env: {
+//                 NODE_ENV: "development",
+//             },
+//             env_production: {
+//                 NODE_ENV: "production",
+//             }
+//         },
+//         {
+//             name: "main_server",
+//             script: "./pony_server_v2/index.js",
+//             env: {
+//                 NODE_ENV: "development",
+//             },
+//             env_production: {
+//                 NODE_ENV: "production",
+//             }
+//         }
+//     ]
+// }
